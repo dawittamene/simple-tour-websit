@@ -387,13 +387,16 @@ text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
 }
 
 
-.home .video-container video{
+.home .video-container img{
     position: absolute;
     top: 0; left: 0; 
     z-index: -1;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    padding-bottom: 10px;
+
+    
 
 }
 
